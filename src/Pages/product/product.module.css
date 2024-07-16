@@ -1,0 +1,150 @@
+.donationButtons{
+    height: 2rem;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.button{
+    background-color: #44a44b !important;
+    color: white !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.addDonarsearchMain{
+    width: auto !important;
+}
+.addDonarSearch{
+    height: auto;
+    border: 1px solid black !important ;
+
+}
+
+.formHeaderext{
+    margin-bottom: 3rem;
+    text-decoration-line: underline;
+}
+.dltbutton{
+    margin-left: 50px;
+}
+
+.imageCircle {
+    border-radius: 50%;
+}
+
+.imageDetails{
+    border-radius: 5%;
+    margin: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 0;
+}
+
+.imageNo{
+  display: none;
+}
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 100px;
+    padding: 2rem;
+  }
+
+.box1{
+    margin-left: 10%;
+}
+
+.box2{
+    padding: 4% 0;
+    padding-right: 20%;
+}
+
+.detailsBox{
+  background-color:  #ffffff ;
+  width: 100%;
+  height: auto;
+  border-radius: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.verticalLine {
+  border-left: 1px solid grey;
+  height: 450px;
+  position: relative;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+
+.SectionBox{
+  display: block !important;
+}
+
+@media screen and (max-width: 768px) {
+    .addDonarsearchMain{
+        width: 100% !important;
+        margin-bottom: 1rem;
+    }
+   .table-responsive{
+    margin-top: 2rem;
+   }
+   .container {
+    display: block;
+  }
+  .box1{
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .imageDetails{
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    height: auto;
+}
+.detailsBox{
+  width: 100%;
+  margin: auto;
+}
+  }
+  @media screen and (max-width: 1277px) {
+    .container {
+        display: block;
+      }
+      .box1{
+        margin-top: 0;
+        margin-left: 0;
+      }
+      .imageDetails{
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 100%;
+        height: auto;
+    }
+    .verticalLine{
+      display: none;
+    }
+    .detailsBox{
+  width: 100%;
+    }
+  }
+  .react-switch {
+    vertical-align: middle;
+    margin-left: 4px;
+  }
+
+  .productImage{
+    margin-top: -2rem;
+    height: 4rem;
+  }
+
+  .boxItem{
+    padding: 0.15rem;
+    white-space: nowrap;
+  }
+
+  .boxP{
+    color: grey;
+  }
+
+  .tableRow td {
+    vertical-align: middle;
+  }

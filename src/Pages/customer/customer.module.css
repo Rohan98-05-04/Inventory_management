@@ -1,0 +1,45 @@
+.donationButtons{
+    height: 2rem;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.button{
+    background-color: #44a44b !important;
+    color: white !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+
+}
+.addDonarsearchMain{
+    width: auto !important;
+}
+.addDonarSearch{
+    height: auto;
+    border: 1px solid black !important ;
+
+}
+
+.formHeaderext{
+    margin-bottom: 3rem;
+    text-decoration-line: underline;
+}
+
+.dltbutton{
+    margin-left: 30px;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .addDonarsearchMain{
+        width: 100% !important;
+        margin-bottom: 1rem;
+    }
+   .table-responsive{
+    margin-top: 2rem;
+   }
+   .dltbutton{
+    margin-left: 15px;
+    
+}
+  }

@@ -1,0 +1,407 @@
+.content{
+  width: calc(100% - 300px);
+  position: relative;
+  left: 300px;
+}
+
+.card-container{
+  width: 400px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.eventDataBtn{
+  margin-left: auto;
+  margin-right: 3rem;
+  font-weight: 700;
+  color: #52a500;
+  text-decoration: underline !important;
+}
+.date-placeholder{
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .card-container{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+/* dashboard */
+.dashboard{
+  padding: 2rem;
+  width: 100%;
+
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* margin: 0.5rem; */
+  width: 100%;
+}
+
+.box {
+  flex: 1 1 calc(30% - 2rem);
+  margin: 1rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  display: flex;
+  padding: 1rem;
+  box-sizing: border-box;
+  width: calc(25% - 2rem);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.overviewBox{
+  flex: 1 1 calc(30% - 2rem);
+  margin: 1rem;
+  /* background-color: #f0ecec; */
+  border-radius: 1rem;
+  display: flex;
+  padding: 1rem;
+  box-sizing: border-box;
+  width: calc(100% - 2rem);
+  /* border: 1px solid #f0ecec; */
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+.purchaseSell{
+  flex: 1 1 calc(30% - 2rem);
+  margin: 1rem;
+  margin-left: auto;
+    margin-right: auto;
+  background-color: #f0ecec;
+  border-radius: 1rem;
+  display: flex;
+  padding: 1rem;
+  box-sizing: border-box;
+  width: calc(100% - 2rem);
+  border: 1px solid #f0ecec;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  justify-content: space-around;
+}
+.ColorSpan{
+  color: black;
+}
+.overviewIcon{
+  width: 35px;
+  height: 35px;
+}
+.boxOrderTable{
+  padding: 1rem;
+  margin: 1rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  height: auto;
+  flex-basis: 100%;
+  text-align: center;
+}
+
+
+.box3 {
+  flex: 1 1 calc(20% - 2rem);
+  margin: 1rem;
+  background-color: red;
+  border-radius: 1rem;
+  display: flex;
+  padding: 1rem;
+  box-sizing: border-box;
+  width: calc(25% - 2rem);
+}
+
+.box1 {
+  /* flex: 1 1 calc(50% - 2rem); */
+  flex: 0 0 auto;
+  /* width: 47.6%; */
+
+  width: 100%;
+
+  /* background-color: #fff; */
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  height: 37rem;
+  align-items: center; 
+}
+.overviewb{
+  background-color: #fff;
+  width: 100%;
+  border-radius: 1rem;
+  margin: 1rem ;
+
+}
+
+.box2 {
+  /* flex: 1 1 calc(50% - 2rem); */
+  flex: 0 0 auto;
+  width: 100%;
+
+  /* width: 47.6%; */
+  /* background-color: #fff; */
+  /* border-radius: 1rem; */
+  /* padding: 1rem; */
+  /* margin: 1rem 1rem; */
+  
+  display: flex;
+  height: 37rem;
+}
+.overviewb{
+  background-color: #fff;
+  width: 100%;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem ;
+
+}
+
+.boxTotal {
+  flex: 1 1 calc(50% - 2rem);
+  margin: 1rem;
+  background-color: #f68945;
+  border-radius: 1rem;
+  display: flex;
+  padding: 1rem;
+  box-sizing: border-box;
+  width: calc(25% - 2rem);
+}
+.boxHead{
+  color: black;
+  font-weight: 700;
+  font-size: larger;
+  
+}
+.customerBox{
+  text-align: center;
+  width: 100%;
+}
+.supplierBox{
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+}
+.topCustmerBoxContent{
+  /* width: 33rem; */
+  text-align: center;
+  margin-top: 2rem;
+}
+.orderBoxContent{
+  margin: 1rem;
+  /* padding: 1rem; */
+}
+.customerBoxContent{
+  margin-top: 2rem;
+}
+
+.orderTrackerBoxTable{
+  margin-top: 2rem;
+  
+}
+.boxAmount{
+  color: black;
+  font-weight: 700;
+  font-size: larger;
+}
+.graphCard{
+  width: 48% !important;
+}
+.iconContainer{
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  border: 1px solid #48a44c;
+  background-color: #48a44c;
+  padding: 3px;
+  border-radius: 10px;
+}
+.graphcontainer{
+  display: flex;
+    flex-wrap: wrap;
+    
+    width: 100%;
+}
+.TableSection{
+  width: 100%;
+}
+ .ChartMain{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+ .donationChartMain{
+  width: 48%;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #fff;
+  height: 20rem;
+  /* margin-right: 2rem; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+
+.ChartMain{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+ .donationChartMain{
+  width: 48%;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #fff;
+  height: 20rem;
+  /* margin-right: 2rem; */
+
+}
+
+.hrMain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hr{
+  width: 50%;
+  border: none; /* Remove the default border */
+  border-top: 2px solid black;
+}
+
+/* Adjustments for mobile screens */
+@media screen and (max-width: 768px) {
+ .sectionMob{
+  display: block;
+ }
+  .ChartMain{
+    display: block;
+    width: 100%;
+  }
+  .donationChartMain{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #ffe8f2;
+    height: 12rem;
+    margin-bottom: 2rem;
+
+  }
+  .container {
+    display: block;
+    width: 100%;
+  }
+}
+
+.overViewBoxHead{
+  text-align: center;
+}
+/* Adjustments for mobile screens */
+@media screen and (max-width: 768px) {
+  .box {
+    flex: 1 1 calc(100% - 2rem);
+    width: calc(100% - 2rem);
+  }
+  .box1{
+    flex-direction: column;
+  }
+  .overviewBox{
+    /* flex: 1 1 calc(50% - 2rem);
+    width: calc(50% - 2rem); */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+   
+  }
+  .overviewIcon{
+    width: 30px;
+    height: 30px;
+  }
+  
+  .ChartMain{
+    display: block;
+  }
+  .donationChartMain{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #ffffff;
+    height: 20rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+
+  .iconContainer{
+    padding: 2px;
+  }
+}
+
+.cardbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: -1rem;
+  width: 100%;
+}
+
+.card{
+  flex: 1 2 calc(20% - 2rem);
+  margin: 1rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  display: flex;
+  padding: 1rem;
+  box-sizing: border-box;
+  width: calc(25% - 2rem);
+}
+
+
+
+.donationButtons{
+  height: 2rem;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.button{
+  background-color: #44a44b !important;
+  color: white !important;
+
+}
+.addDonarsearchMain{
+  width: auto !important;
+}
+.addDonarSearch{
+  height: auto;
+  border: 1px solid black !important ;
+
+}
+
+.formHeaderext{
+  margin-bottom: 3rem;
+  text-decoration-line: underline;
+}
+.dltbutton{
+  margin-left: 50px;
+  
+}
+@media screen and (max-width: 768px) {
+  .addDonarsearchMain{
+      width: 100% !important;
+      margin-bottom: 1rem;
+  }
+ .table-responsive{
+  margin-top: 2rem;
+ }
+}
